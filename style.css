@@ -1,27 +1,23 @@
-/* Reset les marges et padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Corps de la page */
+/* Styles généraux */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #f4f4f4;
     color: #333;
-    line-height: 1.6;
+    margin: 0;
 }
 
-/* Style de l'en-tête */
 header {
-    background-color: #333;
-    color: white;
+    background-color: #0066cc;
     padding: 10px 0;
     text-align: center;
+    color: white;
 }
 
-/* Navigation */
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -38,14 +34,57 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Sections */
-section {
-    margin: 20px;
+/* Bannière */
+#banniere {
+    margin: 20px 0;
+    overflow: hidden;
 }
 
-footer {
+.slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Produits */
+#produits {
+    padding: 20px;
     text-align: center;
-    padding: 10px;
+}
+
+.produits-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.produit {
+    width: 200px;
+    text-align: center;
+}
+
+.produit img {
+    width: 100%;
+    height: auto;
+}
+
+/* Promotions */
+#promotions {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contact */
+#contact {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
     background-color: #333;
     color: white;
+    padding: 10px;
+    text-align: center;
 }
